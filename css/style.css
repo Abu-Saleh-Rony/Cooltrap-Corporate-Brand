@@ -1,0 +1,249 @@
+/*-----Google Fonts
+------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.social-link {
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+
+}
+
+.fa-ig {
+    padding-right: 12px;
+}
+
+.fa-fb {
+    padding-right: 12px;
+}
+
+.user-icons {
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.user {
+    padding-right: 10px;
+}
+
+.search {
+    padding-right: 10px;
+}
+
+.upper-nav-portion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.lower-nav-portion {
+    background: black;
+    padding: 3px 0px;
+
+}
+
+.lower-nav-portion ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-nav-portion ul li {
+    padding: 0px 20px;
+}
+
+.lower-nav-portion ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.banner-section {
+    background-image: url(../image/cover.webp);
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+    margin-top: -41px;
+
+}
+
+.banner-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'futura', sans-serif;
+    padding-top: 200px;
+
+}
+
+.flexfit-section {
+    padding: 50px 0px;
+}
+
+
+
+.flexfit-section .domestic-section .blanks-section h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'futura', sans-serif;
+
+}
+
+.flexfit-program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.domestic-program {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.blanks-program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col-2-1 {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.col-2-1 p {
+    font-size: 22px;
+    font-weight: 100;
+    padding-left: 95px;
+}
+
+.col-2-1 img {
+    width: 110%;
+    border-radius: 5px;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.contact-info1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-section input {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.contact-section textarea {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.send-btn {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contact-info2 {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info1 img {
+    width: 200px;
+}
+
+footer {
+    background-color: #000;
+    padding: 45px 25px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-info li a {
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 15px;
+}
+
+.payment-way {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.payment-way li {
+    padding: 0px 10px;
+}
+
+.payment-way li i {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+
+}
